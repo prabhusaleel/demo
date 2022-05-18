@@ -21,7 +21,7 @@ jobs:
         id: 'version'
         uses: mathieudutour/github-tag-action@v6.0
         with:
-          github_token: ${GITHUB_TOKEN}
+          github_token: ${{ env.GITHUB_TOKEN }}
           dry_run: true
       - name: 'Echo Tags'
         run: |
@@ -67,4 +67,4 @@ jobs:
       - name: 'Tag New Version'
         uses: mathieudutour/github-tag-action@v6.0
         with:
-          github_token: ${GITHUB_TOKEN}
+          github_token: ${{ env.GITHUB_TOKEN }}
