@@ -42,7 +42,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Publish Packages</name>
-            <url>https://maven.pkg.github.deere.com/prabhusaleel/demo</url>
+            <url>https://maven.pkg.github.com/prabhusaleel/demo</url>
         </repository>
     </distributionManagement>
 

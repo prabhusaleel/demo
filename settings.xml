@@ -17,7 +17,7 @@
                 </repository>
                 <repository>
                     <id>github</id>
-                    <url>https://maven.pkg.github.deere.com/prabhusaleel/demo</url>
+                    <url>https://maven.pkg.github.com/prabhusaleel/demo</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
