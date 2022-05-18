@@ -1,4 +1,4 @@
-# Getting Started  :smiley:
+# Getting Started    :smiley:    :satisfied:
 
 ### Reference Documentation
 For further reference, please consider the following sections:
