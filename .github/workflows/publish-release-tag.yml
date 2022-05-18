@@ -18,7 +18,7 @@ jobs:
           fetch-depth: '0'
       - name: 'Get Next Tag Version'
         id: 'version'
-        uses: anothrNick/github-tag-action@1.39.0
+        uses: anothrNick/github-tag-action@1.36.0
         env:
           DRY_RUN: true
       - name: 'Echo Tags'
