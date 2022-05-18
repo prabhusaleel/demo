@@ -64,4 +64,6 @@ jobs:
         with:
           fetch-depth: '0'
       - name: 'Tag New Version'
-        uses: anothrNick/github-tag-action@1.39.0
+        uses: mathieudutour/github-tag-action@v6.0
+        with:
+          github_token: ${GITHUB_TOKEN}
